@@ -435,8 +435,10 @@ div.class {
 @media (max-width: 991px) {
   .nav .toggle {
     display: block;
-    background: #c8c8c8;
     padding: 18px;
+  }
+  .nav .toggle.open {
+    background: #c8c8c8;
   }
   .nav .toggle i {
     color: white;
