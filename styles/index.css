@@ -151,10 +151,7 @@ a {
   width: 50%;
   align-items: center;
 }
-.land .right img {
-}
-.land .right p {
-}
+
 /* logos */
 .logos {
   display: flex;
@@ -416,11 +413,6 @@ div.class {
 
 /* nav-bottom */
 
-.page .nav.bottom {
-  /* flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap; */
-}
 @media (max-width: 479px) {
   .page .nav.bottom {
     padding-bottom: 33px;
@@ -443,6 +435,8 @@ div.class {
 @media (max-width: 991px) {
   .nav .toggle {
     display: block;
+    background: #c8c8c8;
+    padding: 18px;
   }
   .nav .toggle i {
     color: white;
